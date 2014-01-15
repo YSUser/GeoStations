@@ -124,7 +124,7 @@ function newRoute(){
 	  markers.push(marker);	  	  
 	        google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent("<div id=\""+polylineAbbr[i]+"\" class=\"infowindow\"><img id=\"loader\" src=\"http://www.geostations.com/root/img/ajax-loader-infowindow.gif\"></div>");
+          infowindow.setContent("<div id=\""+polylineAbbr[i]+"\" class=\"infowindow\"><img id=\"loader\" src=\"http://www.geostations.com/img/ajax-loader-infowindow.gif\"></div>");
           infowindow.open(map, marker);
 		        google.maps.event.addListenerOnce(infowindow,"domready", function(){
      			 getStationInfo(polylineAbbr[i],polylineNames[i]);
