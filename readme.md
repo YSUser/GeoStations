@@ -6,8 +6,8 @@ Other potential candidates can be found [here](http://www.programmableweb.com/ap
 
 Live Site
 -----
-geostations.com
+www.geostations.com
 
 Issues
 -----
-[]Mobile compatibility: Layout breaks on small devices
+- [ ] Mobile compatibility: Layout breaks on small devices
