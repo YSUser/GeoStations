@@ -1,0 +1,122 @@
+html { height: 100%
+}
+		
+body { height: 100%;
+	   width:100%;
+	   margin:0;
+	   padding:0;
+	   font-family:Arial,Helvetica,sans-serif;
+	   position:relative;
+}
+	   
+#header	{height:15%;
+		 width:100%;
+		 margin:0;
+}
+
+#clock		{margin: 5px 15px 0px 20px;
+			 padding:0;
+			 display: inline-block;
+			 float:left;
+}
+
+#headers	{font-family: 'Ubuntu',Arial,Helvetica,sans-serif;
+			 font-weight:500;
+			 color:#09C;
+			 list-style-type:none;
+			 margin:15px 0px 0px 0px;
+			 padding:0px;
+}
+
+#headers h1,h3	{margin:0;
+				 padding:0;
+				 font-weight:normal;
+}
+
+.floats {display:none;
+		 position:absolute;
+}
+
+#select_div {top:115px;
+			 left:80px;
+			 z-index:2;
+			 text-align:center;
+}
+
+#info_div {padding:7px;
+		  width:250px;
+		  border: 1px solid #000;
+		  border-radius: 5px;
+		  background-color:#FFF;
+		  top:150px;
+		  left:80px;
+		  opacity:0.8;
+		  z-index:1;
+}
+
+#info_div button {margin-left:100px;
+				 margin-bottom:10px;
+				 padding:4px 8px;
+				 background-color:#B3F5FD;
+				 border:1px solid #0CF;
+				 border-radius:3px;
+				 opacity:0.5;
+}
+
+#info_div button:hover {background-color:#FFF;
+}
+
+#map_canvas_wrapper	{height:81%;
+					 position:relative;
+}
+      
+#map_canvas	{height:100%;
+			 width:100%;
+			 margin:0;
+			 padding:0;
+			 border-top:1px solid #000;
+			 position:absolute;
+			 z-index:0;
+}
+			 			 
+#noscript		{text-align:center;
+				 margin:30px;
+}
+
+#loader		{display: block;
+			 margin: auto;
+			 position:relative;
+			 top:25%
+}
+
+.infowindow	{height:200px;
+			 width:300px;
+			 position:relative;
+			 overflow:auto;
+}
+
+#footer		{position:absolute;
+			 bottom:0;
+			 height:5%;
+			 width:100%;
+			 z-index:1;
+			 overflow:hidden;
+}
+
+#footer ul	{text-align:center;
+			 margin-top:5px;
+			 border-top: 2px solid #aaa;
+}
+
+#footer li	{display:inline;
+			 margin:auto;
+			 padding-left:5px;
+			 font-size:12px;
+			 text-align:center;
+			 list-style-type:none;
+}
+
+.select_hover {border:1px solid #09C;
+	 		   border-radius:7px;
+			   box-shadow: 0px 0px 10px #5897fb; 
+}
