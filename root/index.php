@@ -5,7 +5,7 @@ include('../model/model.php');
 <html>
 <head>
   	<meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <title>GeoStations San Francisco</title>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href='css/styles.css' rel='stylesheet' type='text/css'>
