@@ -12,4 +12,4 @@ www.geostations.com
 
 Issues
 -----
-- [ ] Mobile compatibility: Layout breaks on small devices
+- [Fixed] Mobile compatibility: Layout breaks on small devices
